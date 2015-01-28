@@ -1,0 +1,389 @@
+body { 
+ margin: 0px;
+ padding: 0px;
+ color: black;
+ background-color: white;
+ font-family: Verdana, Arial, sans-serif;
+ font-size: 10pt; color: #333333;
+}
+a {
+ color: #333333;
+ text-decoration: none;
+}
+a:hover { color: #3333FF; }
+a.printable { text-decoration: underline; }
+h1 {
+ color: #333;
+ font-family: Tahoma, Verdana, Arial, sans-serif;
+ font-size: 18pt;
+ font-weight: normal;
+ line-height: 19pt;
+}
+h1.pagetitle {
+ padding-top: 0px; margin-top: 8px;
+ padding-bottom: 0; margin-bottom: 0;
+}
+h3, h4, h5, h6 { margin-bottom: 0; }
+h2 {
+ color: #333;
+ font-family: Tahoma, Verdana, Arial, sans-serif;
+ font-size: 14pt;
+ font-weight: normal;
+ line-height: 15pt;
+ border-bottom: 1px solid #dddddd;
+ margin-top: 20px;
+ margin-bottom: 10px;
+}
+h4 {
+ font-family: Tahoma, Verdana, Arial, sans-serif;
+ font-size: 12pt;
+ font-weight: normal;
+ display: inline;
+}
+small { font-size: 75%; }
+img {
+  border: none;
+}
+
+p, pre, td, th, li, dd, dt { line-height: 12pt; }
+textarea { overflow: auto; }
+
+.cap {
+  text-transform: capitalize;
+}
+
+#specialform { display: inline; }
+#content { margin: 0; padding: 0; margin-top: 15px; }
+
+/** -- Header formatting -- */
+#header {
+ margin: 6px 0px 0px 0px;
+}
+table.top {
+ margin: 0px;
+ padding: 0px;
+ border: none;
+ width: 100%
+}
+td.top {
+ vertical-align: bottom;
+ text-align: right;
+ white-space: nowrap;
+}
+div.topleader {
+ width: 10px;
+}
+div.top, div.topleader {
+ margin-bottom: 9px;
+ padding-bottom: 1px; 
+ border-bottom: 1px solid #333;
+}
+#toplogo {
+ width: 160px;
+}
+#toplinks {
+ width: 100%;
+}
+/* page subtitle */
+#subtitle {
+  float: left;
+  font-family: Verdana, Tahoma;
+  font-size: 9pt;
+  font-variant: small-caps;
+  width: 300px;
+  margin: -5px 0px 0px 0px;
+  padding-left: 20px;
+}
+/* search box formatting */
+#search {
+ float: right;
+ text-align: right;
+ font-size: 9pt;
+ margin-top: -2px;
+ margin-right: 10px;
+ margin-bottom: 0px;
+}
+#searchbox {
+ font-size: 9pt;
+ border: 1px solid #CCCCCC;
+ padding: 1px;
+}
+.searchcmd {
+ font-size: 9pt;
+ border: 1px solid #CCCCCC;
+}
+.searchcmd:hover {
+ color: #3333FF;
+ border: 1px solid #7777FF;
+}
+#searchform {
+ padding: 0; margin : 0;
+}
+/* -- end of header section -- */
+
+/* article formatting */
+#content {
+ margin-top: 20px;
+}
+#article-column {
+ margin-left: 1px;
+}
+#page-article {
+ margin: 0px 15px 0px 22px;
+}
+#article, #article-footer {
+ margin: 0px 15px 0px 185px;
+ padding-left: 13px;
+}
+#article {
+  position: relative;
+  border-left: 1px solid #cccccc;
+}
+#article a {
+  font-weight: bold;
+}
+#page-article, #article, #article td, #article th, #article p {
+ font-family: Verdana, Arial, sans-serif;
+ font-size: 9pt; color: black;
+}
+#page-article p, #article p {
+ padding-top: 0; padding-bottom: 0;
+ margin-top: 1ex; margin-bottom: 0;
+}
+#page-article p.subtitle, #article p.subtitle {
+ color: #333333;
+ font-size: 11pt;
+ padding-top: 0; margin-top: 0; padding-bottom: 1ex;
+}
+/* article footer */
+#article-footer {
+ margin-top: 15px;
+ border-top: 1px solid #CCC;
+ font-size: 8pt;
+ white-space: nowrap;
+}
+
+/* navigation bar */
+div.navwrap {
+ float: left;
+}
+#navbar {
+ margin-left: 22px;
+ padding: 2px;
+ width: 160px;
+ visibility: visible;
+ z-index: 99;
+ overflow: hidden;
+ 
+ font-family: Verdana, Arial, sans-serif;
+ font-size: 8pt; line-height: 9.5pt;
+ text-decoration: none;
+ color: black;
+}
+#navbar h6 {
+ font-family: Verdana, Arial, sans-serif;
+ font-size: 9pt; font-weight: bold; line-height: 10pt;
+ text-decoration: none;
+ color: #333333;
+ padding: 0; margin-left: -2px;
+ margin-bottom: 2px; margin-top: 6px;
+}
+#navbar h6.spaced {
+ margin-bottom: 10px;
+}
+#navbar ul {
+ margin: 0px;
+ padding: 0px 0px 0px 5px;
+ list-style-type: none;
+}
+#navbar li {
+ margin-left: 0px;
+ padding-left: 0px;
+ line-height: 9.5pt;
+ marker-offset: 20px;
+}
+
+/* Internet Explorer "3px jog" work-around. Ugh. */
+/* Hide from IE5-mac. Only IE-win sees this. \*/
+/*
+* html #navwrap {
+  margin-right: 20px;
+} 
+* html #article-column {
+  height: 1%;
+  margin-left: 0;
+}
+*/
+/* End hide from IE5/mac */
+
+/* -- faq formatting -- */
+ol.faqtop {
+ list-style-type: upper-alpha;
+}
+#faq-questions li {
+ margin: 5px 0px 0px 0px;
+}
+#faq-answers ol li {
+ margin: 10px 0px 0px 0px;
+}
+#faq-answers ul li {
+ margin: 0px 0px 0px 0px;
+}
+/* -- end faq formatting -- */
+
+/* -- footer formatting -- */
+#footer {
+ padding: 0px;
+ margin: 0px;
+ width: 100%;
+}
+div.bottom, div.bottomleader {
+ margin-top: 8px;
+ padding-top: 6px;
+ border-top: 1px solid #333;
+}
+div.bottomleader {
+ width: 10px;
+}
+td.bottom {
+ vertical-align: top;
+ font-size: 8pt;
+ text-align: center;
+ white-space: nowrap;
+}
+#badges {
+ width: 180px;
+ text-align: left;
+}
+#sflogo {
+ margin-left: 10px;
+ border: 0;
+}
+#mwlogo {
+ margin-left: 2px;
+ border: 0;
+}
+#bidlogo {
+ border-top: 0;
+ width: 93px;
+ text-align: right;
+}
+/* -- end of footer formatting -- */
+
+/* -- gallery entries -- */
+a.download {
+  width: 140px;
+  padding: 2px 2px 4px 4px;
+  margin: 0px 0px 10px 0px;
+  border: 1px solid #dddddd;
+  font-family: Verdana, Tahoma;
+  font-weight: normal;
+  font-size: 7pt;
+  float: left;
+}
+a.download:hover {
+  border: 1px solid #9999ff;
+}
+img.download {
+  float: right;
+  margin-top: 9px;
+  margin-right: 3px;
+  border: none;
+}
+#navbar .dl-link {
+ font-size: 9pt;
+ line-height: 10.5pt;
+ letter-spacing: 1.2pt;
+}
+a.gallery {
+  padding: 4px;
+  margin: 5px 10px 5px 0px;
+  border: 1px solid #dddddd;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 7pt;
+  text-align: right;
+  float: left;
+}
+a.minigallery {
+  width: 140px;
+  padding: 2px;
+  margin: 0px 0px 5px 0px;
+  border: 1px solid #dddddd;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 7pt;
+  font-weight: normal;
+  text-align: right;
+  float: left;
+}
+img.gallery {
+  padding-bottom: 2px;
+  border: none;
+}
+a.gallery:hover, a.minigallery:hover {
+  color: #fff;
+  background-color: #555;
+}
+/* -- end of gallery entries -- */
+
+/* -- user's manual entries -- */
+.codebox {
+  margin: 20px 50px 20px 30px;
+  padding: 4px;
+  border: 1px dashed #999999;
+  background-color: #f1f1f1;
+  font-family: Courier New, fixed-width;
+}
+.codebox pre {
+  margin: 0px;
+  padding: 0px;
+}
+ul.manual {
+  padding-left: 15px;
+  list-style-type:none;
+}
+ol.manual {
+  padding-left: 25px;
+}
+.manual li {
+  margin-top: 10px;
+  
+}
+.manual-figure {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 7pt;
+  font-weight: normal;
+  margin: 20px 5px 20px 20px;
+}
+a.api {
+  font-weight: normal;
+}
+.footnote {
+  
+}
+#prevnext {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#up {
+  text-align: center;
+}
+#prev {
+  float: left;
+}
+#next {
+  float: right;
+}
+.comment {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dedede;
+}
+.comment-content {
+  margin-left: 10px;
+}
+p.comment-footer {
+  margin: 0 0 20px 10px;
+  padding-top: 3px;
+}
+/* -- end of user's manual entries -- */
